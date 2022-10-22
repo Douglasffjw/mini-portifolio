@@ -12,13 +12,15 @@ body{
     align-items:center ; /*centraliza verdicalmente*/
     min-height: 100vh;/*define a altura da janela quando se move*/
     padding: 30px;
+   
+    
 }
 
 .cartao{
-    background-color: #070d12;
-    width: 370px;
-    border: 2px solid #e126d9;
-    border-radius: 10px; /*arredonda a borda*/
+    background-color: #080a0b;
+    width: 420px;
+    border: 4px solid #64325c;
+    border-radius: 20px; /*arredonda a borda*/
     overflow: hidden;
 }
 
@@ -35,9 +37,9 @@ body{
 }
 .cartao .minhas-informacoes img{
     border-radius: 50px;
-    border: 4px solid #02d08f;
-    width: 96px; /*muda o tamanho da ft de perfil*/
-    height: 96px;/*muda o tamanho da ft de perfil*/
+    border: 4px solid #64325c;
+    width: 102px; /*muda o tamanho da ft de perfil*/
+    height: 102px;/*muda o tamanho da ft de perfil*/
 }
 .cartao .minhas-informacoes .nome{
     font-size: 26px
